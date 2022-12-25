@@ -7,7 +7,7 @@ const Projects = () => {
 
   //Render
   return (
-    <section className="projectsSection" >
+    <section className="projectsSection" id="projects" >
       <div className="sectionTitle">
         <h2>Mes Projets</h2>
       </div>
