@@ -17,13 +17,13 @@ const Navbar = () => {
       <div className="anchorLinks">
         <ul>
           <li>
-            <a href="#whoIAmSection">Qui suis-je?</a>
+            <a href="#whoIAmSection" className="anchorLink" >Qui suis-je?</a>
           </li>
           <li>
-            <a href="#projects">Projets</a>
+            <a href="#projects" className="anchorLink" >Projets</a>
           </li>
           <li>
-            <a href="#contactSection">Contact</a>
+            <a href="#contactSection" className="anchorLink" >Contact</a>
           </li>
         </ul>
       </div>

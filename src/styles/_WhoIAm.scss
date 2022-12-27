@@ -4,10 +4,16 @@
   .presentationContainer {
     padding: 20px 0px;
     display: flex;
+    @include smartphoneOnly{
+      flex-direction: column;
+    }
     .picSection {
       .profilePic {
         width: 330px;
         padding: 0px 40px;
+        @include smartphoneOnly{
+          width: 200px;
+        }
       }
     }
     .presentation {
@@ -16,14 +22,17 @@
         text-align: start;
         color: $millbrook;
         font-weight: 500;
+        @include tabAndLess{
+          text-align: center;
+          font-size: 14px;
+        }
       }
       .downloadCVButton {
         display: flex;
-        flex-direction: center;
         justify-content: center;
+
         .downloadCVLink {
-          //
-          margin-top: 15%;
+          margin: 14%;
           text-decoration: none;
           font-size: 16px;
           background-color: $millbrook;
@@ -34,12 +43,16 @@
           font-family: "Raleway";
           transition-duration: 300ms;
           cursor: pointer;
+          @include tabAndLess{
+            margin: 10px;
+          }
           &:hover {
             color: $millbrook;
             background-color: $carouselPink;
             font-weight: 700;
             scale: 1.1;
           }
+         
         }
       }
     }

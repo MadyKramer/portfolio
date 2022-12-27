@@ -33,6 +33,12 @@
   font-size: 18px;
   font-weight: 500;
 }
+.navbar .anchorLinks .anchorLink {
+  text-decoration: none;
+}
+.navbar .anchorLinks .anchorLink:visited {
+  color: #fff;
+}
 @media (max-width: 1026px) {
   .navbar .anchorLinks {
     display: none;
@@ -73,9 +79,19 @@
   padding: 20px 0px;
   display: flex;
 }
+@media (max-width: 600px) {
+  .whoIAm .presentationContainer {
+    flex-direction: column;
+  }
+}
 .whoIAm .presentationContainer .picSection .profilePic {
   width: 330px;
   padding: 0px 40px;
+}
+@media (max-width: 600px) {
+  .whoIAm .presentationContainer .picSection .profilePic {
+    width: 200px;
+  }
 }
 .whoIAm .presentationContainer .presentation {
   padding: 0px 20px;
@@ -85,13 +101,18 @@
   color: #583532;
   font-weight: 500;
 }
+@media (max-width: 1026px) {
+  .whoIAm .presentationContainer .presentation .presentationP {
+    text-align: center;
+    font-size: 14px;
+  }
+}
 .whoIAm .presentationContainer .presentation .downloadCVButton {
   display: flex;
-  flex-direction: center;
   justify-content: center;
 }
 .whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink {
-  margin-top: 15%;
+  margin: 14%;
   text-decoration: none;
   font-size: 16px;
   background-color: #583532;
@@ -102,6 +123,11 @@
   font-family: "Raleway";
   transition-duration: 300ms;
   cursor: pointer;
+}
+@media (max-width: 1026px) {
+  .whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink {
+    margin: 10px;
+  }
 }
 .whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink:hover {
   color: #583532;

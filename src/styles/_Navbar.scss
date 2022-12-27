@@ -32,6 +32,12 @@
     justify-content: flex-end;
     font-size: 18px;
     font-weight: 500;
+    .anchorLink{
+      text-decoration: none;
+      &:visited{
+        color: #fff;
+      }
+    }
     @include tabAndLess{
       display: none;
     }
