@@ -36,7 +36,7 @@ export const projectsList = [
         name: 'Kanap',
         id: 3,
         cover: kanap,
-        description: "Front-End | Création de la partie font en JavaScript d'un site e-commerce",
+        description: "Front-End | Création de la partie front d'un site e-commerce",
         techno: [js],
         link: "https://github.com/MadyKramer/Kanap"
     },

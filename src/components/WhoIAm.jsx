@@ -1,5 +1,5 @@
 import profilepic from "./../assets/profilePic.png";
-import cv from "./../assets/cv.pdf"
+import cv from "./../assets/cv.pdf";
 
 //State
 
@@ -18,24 +18,33 @@ const WhoIAm = () => {
         <div className="presentation">
           <div className="presentationP">
             <p>
-              Hello! Je m'appelle Madison, j'ai 28 ans et je vis dans le
-              Nord-Est de la France. <br /> En 2021, j'ai décidé d'exércer un
-              métier passionnant, porteur et innovant : celui de développeuse
-              web!
+              Hello! Vous êtes au bon endroit pour connaître mon parcours, mes
+              projets, mes hard skills, et en savoir plus sur moi-même! <br />{" "}
+              Je m'appelle Madison, j'ai 28 ans et je vis dans le Nord-Est de la
+              France. <br /> En 2021, j'ai décidé d'exércer un métier
+              passionnant, porteur et innovant : celui de développeuse web!
               <br /> Après un bootcamp "Get Into Tech" chez Inco Academy pour
               confirmer mon projet professionnel, j'ai effectué la formation de
-              développeur web chez OpenClassrooms. Et je viens tout juste d'être
-              diplômée! <br /> Je suis actuellement à la recherche d'offres dans
-              le secteur. Vous êtes au bon endroit pour connaître mon parcours,
-              mes projets ainsi que mes hard skills!
+              développeur web chez OpenClassrooms. Je viens tout juste d'être
+              diplômée! <br />
+              <br /> Je suis actuellement à la recherche d'offres dans la région
+              Lorraine ainsi qu'au Luxembourg. (Longwy, Metz, Nancy et le Sud du
+              Luxembourg.) Je suis passionnée par les nouvelles technologies,
+              l'astronomie, les jeux vidéos, les plantes et la
+              pâtisserie (lorsque ça finit bien...)
+              <br />
+              <br />
+              Je suis de nature curieuse, j’aime apprendre et voir des projets
+              arriver à terme. <br /> <br />Bonne visite!
             </p>
           </div>
           <div className="downloadCVButton">
-            <a href={cv} download className="downloadCVLink">Téléchargez mon CV!</a>
+            <a href={cv} download className="downloadCVLink">
+              Téléchargez mon CV!
+            </a>
           </div>
         </div>
       </div>
-      
     </section>
   );
 };

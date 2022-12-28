@@ -73,13 +73,17 @@
 
 .whoIAm {
   padding-top: 80px;
-  height: 90vh;
+}
+@media (max-width: 1026px) {
+  .whoIAm {
+    height: 90vh;
+  }
 }
 .whoIAm .presentationContainer {
   padding: 20px 0px;
   display: flex;
 }
-@media (max-width: 600px) {
+@media (max-width: 1026px) {
   .whoIAm .presentationContainer {
     flex-direction: column;
   }
@@ -126,7 +130,7 @@
 }
 @media (max-width: 1026px) {
   .whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink {
-    margin: 10px;
+    margin: 50px;
   }
 }
 .whoIAm .presentationContainer .presentation .downloadCVButton .downloadCVLink:hover {
@@ -150,6 +154,11 @@
   scale: 1.3;
 }
 
+@media (max-width: 1026px) {
+  .projectsSection {
+    height: 100vh;
+  }
+}
 .projectsSection .projectList {
   display: flex;
   justify-content: space-around;
@@ -163,7 +172,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 10px 70px;
-  border: 1px solid #DEDEDE;
+  border: 1px solid #dedede;
   border-radius: 10px;
   box-shadow: 3px 5px 5px rgba(54, 50, 50, 0.3803921569);
   width: 250px;
@@ -174,9 +183,14 @@
 .projectsSection .projectList .project:hover {
   transform: scale(1.1);
 }
+@media (max-width: 1026px) {
+  .projectsSection .projectList .project {
+    margin: 10px 30px;
+  }
+}
 .projectsSection .projectList .project .projectImg {
   object-fit: cover;
-  border-bottom: 1px solid #DEDEDE;
+  border-bottom: 1px solid #dedede;
 }
 .projectsSection .projectList .project .projectTitle {
   border-radius: 10px 10px 0px 0px;
