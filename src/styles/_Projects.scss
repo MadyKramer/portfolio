@@ -10,6 +10,7 @@
     }
     .project {
       display: flex;
+      z-index: 5;
       flex-direction: column;
       justify-content: space-between;
       margin: 10px 70px;

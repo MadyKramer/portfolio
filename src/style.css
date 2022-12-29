@@ -1,6 +1,7 @@
 /** Breakpoints **/
 /** Breakpoints **/
 .navbar {
+  z-index: 10;
   width: 100%;
   position: fixed;
   top: 0;
@@ -170,6 +171,7 @@
 }
 .projectsSection .projectList .project {
   display: flex;
+  z-index: 5;
   flex-direction: column;
   justify-content: space-between;
   margin: 10px 70px;
