@@ -1,7 +1,5 @@
 .projectsSection {
-  @include tabAndLess{
-    height: 100vh;
-  }
+ 
   .projectList {
     display: flex;
     justify-content: space-around;
