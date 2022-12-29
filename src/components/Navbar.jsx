@@ -15,7 +15,7 @@ const Navbar = () => {
         <p className="dev">Développeuse web</p>
       </div>
       <div className="anchorLinks">
-        <ul>
+        <ul className="anchorLinks__list">
           <li>
             <a href="#whoIAmSection" className="anchorLink" >Qui suis-je?</a>
           </li>
@@ -27,7 +27,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-      <div className="anchorLinks__responsive">
+      <div className="responsiveIcon">
         <FontAwesomeIcon icon={faBars} className="iconNavBar" />
       </div>
     </nav>

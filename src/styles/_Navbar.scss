@@ -32,16 +32,10 @@
     justify-content: flex-end;
     font-size: 18px;
     font-weight: 500;
-    .anchorLink{
-      text-decoration: none;
-      &:visited{
-        color: #fff;
-      }
-    }
-    @include tabAndLess{
+    @include tabAndLess {
       display: none;
     }
-    ul {
+    &__list {
       display: flex;
       height: 100%;
       margin-right: 34px;
@@ -53,17 +47,26 @@
         cursor: pointer;
         &:hover {
           transform: scale(1.15);
-          color: $carouselPink;
+        }
+        .anchorLink {
+          text-decoration: none;
+
+          &:visited {
+            color: #fff;
+          }
+          &:hover {
+            color: $carouselPink;
+          }
         }
       }
     }
-    &__responsive{
-      display: none;
-      padding: 30px;
-      font-size: 26px;
-      @include tabAndLess {
-        display: inline;
-      }
+  }
+  .responsiveIcon {
+    display: none;
+    padding: 30px;
+    font-size: 26px;
+    @include tabAndLess {
+      display: inline;
     }
   }
 }
