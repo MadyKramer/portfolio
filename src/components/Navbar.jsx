@@ -19,18 +19,18 @@ const Navbar = () => {
       </div>
       <div className={`anchorLinks ${isMenuOpen ? "anchorLinks--open menuAppear" : ""}`}>
         <ul className="anchorLinks__list">
-          <li>
-            <a href="#whoIAmSection" className="anchorLink">
+          <li onClick={() => setIsMenuOpen(false)}>
+            <a href="#whoIAmSection" className="anchorLink" >
               Qui suis-je?
             </a>
           </li>
-          <li>
+          <li onClick={() => setIsMenuOpen(false)}>
             <a href="#projects" className="anchorLink">
               Projets
             </a>
           </li>
-          <li>
-            <a href="#contactSection" className="anchorLink">
+          <li onClick={() => setIsMenuOpen(false)}>
+            <a href="#contactSection" className="anchorLink" >
               Contact
             </a>
           </li>

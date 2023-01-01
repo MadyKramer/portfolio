@@ -105,6 +105,7 @@
 .menuAppear{
   animation-name: menuAppear;
   animation-duration: 400ms;
+  animation-timing-function: ease-out;
 }
 
 @keyframes menuAppear {
