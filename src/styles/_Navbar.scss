@@ -35,8 +35,10 @@
     font-weight: 500;
     @include tabAndLess {
       display: none;
+      
     }
     &--open{
+      
       display:block;
       height: 200px;
     }
@@ -45,11 +47,14 @@
       position: relative;
       height: 100%;
       margin-right: 34px;
+      
+      
       @include tabAndLess{
         flex-direction: column;
         background-color: $millbrook;
         top: 63px;
         width: 100%;
+        padding: 0;
 
       }
       li {

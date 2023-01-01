@@ -55,6 +55,7 @@
     background-color: #583532;
     top: 63px;
     width: 100%;
+    padding: 0;
   }
 }
 .navbar .anchorLinks__list li {
