@@ -17,7 +17,7 @@ const Navbar = () => {
         <p className="name">Madison Kramer</p>
         <p className="dev">Développeuse web</p>
       </div>
-      <div className={`anchorLinks ${isMenuOpen ? "anchorLinks--open" : ""}`}>
+      <div className={`anchorLinks ${isMenuOpen ? "anchorLinks--open menuAppear" : ""}`}>
         <ul className="anchorLinks__list">
           <li>
             <a href="#whoIAmSection" className="anchorLink">

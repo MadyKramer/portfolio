@@ -101,3 +101,18 @@
     }
   }
 }
+
+.menuAppear{
+  animation-name: menuAppear;
+  animation-duration: 400ms;
+}
+
+@keyframes menuAppear {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity:1;
+  }
+  
+}
