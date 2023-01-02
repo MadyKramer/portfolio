@@ -1,13 +1,26 @@
+import React from 'react';
+import { useRef, useEffect } from 'react';
 import { projectsList } from "../datas/projectsList";
+import ScrollReveal from 'scrollreveal';
 
 
 const Projects = () => {
   //State
   //Comportement
+const sectionRef = useRef(null);
 
+useEffect(() => {
+  ScrollReveal().reveal(sectionRef.current, {
+    duration: 1400, // durée de l'animation en ms
+    distance: '0px', // distance par rapport à l'élément d'origine
+    easing: 'ease-in-out', // easing de l'animation
+    interval: 200, // intervalle entre chaque élément animé
+    reset: true
+  });
+}, []);
   //Render
   return (
-    <section className="projectsSection" id="projects" >
+    <section className="projectsSection" id="projects" ref={sectionRef} >
       <div className="sectionTitle">
         <h2>Mes Projets</h2>
       </div>
