@@ -24,17 +24,17 @@ const Contact = () => {
       <div className="contactContainer">
         <a href="https://www.linkedin.com/in/madison--kramer/">
           <div className="contactIcons">
-            <FontAwesomeIcon icon={faLinkedin} className="icons" />
+            <FontAwesomeIcon icon={faLinkedin} className="icons" aria-label="lien linkedin"/>
           </div>
         </a>
         <a href="https://github.com/MadyKramer">
-          <div className=" contactIcons">
+          <div className="contactIcons" aria-label="lien github">
             <FontAwesomeIcon icon={faGithub} className="icons" />
           </div>
         </a>
         <a href="mailto: Madison-CF@hotmail.fr">
           <div className="contactIcons">
-            <FontAwesomeIcon icon={faEnvelope} className="icons" />
+            <FontAwesomeIcon icon={faEnvelope} className="icons" aria-label="M'envoyer un mail"/>
           </div>
         </a>
       </div>

@@ -1,3 +1,4 @@
+import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
@@ -41,6 +42,7 @@ const Navbar = () => {
           icon={faBars}
           className="iconNavBar"
           onClick={toggleMenu}
+          aria-label="menu de navigation"
         />
       </div>
     </nav>

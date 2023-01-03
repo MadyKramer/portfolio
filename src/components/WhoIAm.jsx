@@ -1,3 +1,4 @@
+import React from 'react';
 import profilepic from "./../assets/profilePic.png";
 import cv from "./../assets/cv.pdf";
 
