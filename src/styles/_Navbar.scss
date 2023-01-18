@@ -79,8 +79,11 @@
           transform: scale(1.15);
         }
         .anchorLink {
+          
           text-decoration: none;
-          color: #fff;
+          &:any-link{
+            color: #fff;
+          }
           &:visited {
             color: #fff;
           }

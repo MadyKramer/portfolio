@@ -83,6 +83,9 @@
 .navbar .anchorLinks__list li .anchorLink {
   text-decoration: none;
 }
+.navbar .anchorLinks__list li .anchorLink:any-link {
+  color: #fff;
+}
 .navbar .anchorLinks__list li .anchorLink:visited {
   color: #fff;
 }
