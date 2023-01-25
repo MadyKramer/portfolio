@@ -41,7 +41,9 @@ useEffect(() => {
                     src={tech}
                     alt="languages used"
                   ></img>
+                  
                 ))}
+                
               </div>
             </div>
           </a>

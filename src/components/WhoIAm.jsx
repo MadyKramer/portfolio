@@ -20,7 +20,7 @@ const WhoIAm = () => {
           <div className="presentationP">
             <p>
               Hello! Vous êtes au bon endroit pour connaître mon parcours, mes
-              projets, mes hard skills, et en savoir plus sur moi-même! <br />{" "}
+              projets, mes hard skills, et en savoir plus sur moi-même! <br />
               Je m'appelle Madison, j'ai 28 ans et je vis dans le Nord-Est de la
               France. <br /> En 2021, j'ai décidé d'exércer un métier
               passionnant, porteur et innovant : celui de développeuse web!
@@ -32,7 +32,7 @@ const WhoIAm = () => {
               Lorraine ainsi qu'au Luxembourg. (Longwy, Metz, Nancy et le Sud du
               Luxembourg.) Je suis passionnée par les nouvelles technologies,
               l'astronomie, les jeux vidéos, les plantes et la
-              pâtisserie (lorsque ça finit bien...)
+              pâtisserie (lorsque cela se termine bien...)
               <br />
               <br />
               Je suis de nature curieuse, j’aime apprendre et voir des projets
