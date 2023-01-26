@@ -26,8 +26,8 @@ useEffect(() => {
       </div>
       <div className="projectList">
         {projectsList.map((proj) => (
-          <a href={proj.link} className="projectGitLink" >  
-            <div className="project" key={proj.id}> 
+          <a href={proj.link} className="projectGitLink" key={proj.id}>  
+            <div className="project" > 
               <div className="projectInfo">
                 <h2 className="projectTitle">{proj.name}</h2>
                 <img className="projectImg" src={proj.cover} alt=""></img>
