@@ -4,6 +4,9 @@ import kanap from '../assets/kanap.png'
 import lapanthere from '../assets/lapanthere.png'
 import ohmyfood from '../assets/ohmyfood.png'
 import booki from '../assets/booki.png'
+import lmj from '../assets/lmj.png'
+// import portfolio from '../assets/portfolio.png'
+import typewritter from '../assets/typewritter.png'
 
 import html from '../assets/technos/html.png'
 import css from '../assets/technos/css.png'
@@ -63,5 +66,29 @@ export const projectsList = [
         description: "Front-End | Création à partir de maquettes d'un site de plannification de vacances",
         techno: [html , css],
         link:"https://github.com/MadyKramer/Projet2"
+    },
+    {
+        name: 'La Maison Jungle',
+        id: 7,
+        cover: lmj,
+        description: "Front-End | Création d'un site e-commerce de plantes",
+        techno: [reactjs],
+        link: "https://github.com/MadyKramer/LaMaisonJungle"
+    },
+    {
+        name: 'Typewriter animation',
+        id: 8,
+        cover: typewritter,
+        description: "Front-End | Création d'une animation temporaire pendant le développement du portfolio actuel",
+        techno: [html, css, js],
+        link: "https://github.com/MadyKramer/PortfolioLoader"
     }
+    // {
+    //     name: 'Portfolio',
+    //     id: 9,
+    //     cover: portfolio,
+    //     description: "Front-End | Création de mon portfolio",
+    //     techno: [reactjs, sass],
+    //     link: "http://madisonkramer.fr"
+    // }
 ]
