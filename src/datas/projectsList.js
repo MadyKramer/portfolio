@@ -76,7 +76,7 @@ export const projectsList = [
         link: "https://github.com/MadyKramer/LaMaisonJungle"
     },
     {
-        name: 'Typewriter animation',
+        name: 'Machine à écrire',
         id: 8,
         cover: typewritter,
         description: "Front-End | Création d'une animation temporaire pendant le développement du portfolio actuel",
