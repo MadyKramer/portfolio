@@ -16,6 +16,10 @@
 .navbar .madisonKramerDev {
   justify-content: flex-start;
   padding-left: 20px;
+  text-decoration: none;
+}
+.navbar .madisonKramerDev:any-link {
+  color: #fff;
 }
 .navbar .madisonKramerDev .name {
   position: relative;

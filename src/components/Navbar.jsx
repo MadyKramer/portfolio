@@ -14,10 +14,10 @@ const Navbar = () => {
   //Render
   return (
     <nav className="navbar">
-      <div className="madisonKramerDev">
+      <a className="madisonKramerDev" href="#whoIAmSection">
         <p className="name">Madison Kramer</p>
         <p className="dev">Développeuse web</p>
-      </div>
+      </a>
       <div className={`anchorLinks ${isMenuOpen ? "anchorLinks--open menuAppear" : ""}`}>
         <ul className="anchorLinks__list">
           <li onClick={() => setIsMenuOpen(false)}>

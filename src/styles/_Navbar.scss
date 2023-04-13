@@ -16,6 +16,10 @@
   .madisonKramerDev {
     justify-content: flex-start;
     padding-left: 20px;
+    text-decoration: none;
+    &:any-link{
+      color:#fff;
+    }
     .name {
       position: relative;
       top: 8px;
